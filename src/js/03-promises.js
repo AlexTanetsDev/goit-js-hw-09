@@ -15,7 +15,7 @@ refs.form.addEventListener('submit', evt => {
   });
 
   dataProcessing(createFormData);
-  // refs.form.reset();
+  refs.form.reset();
 });
 
 function dataProcessing({ delay, step, amount }) {
